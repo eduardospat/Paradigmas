@@ -26,7 +26,7 @@ Observação: Incluir chaves de API diretamente no código não é uma prática 
 ## Processo de Desenvolvimento
 **Escolhas de Implementação:**
 
-Optei por usar a biblioteca requests para fazer solicitações HTTP pela simplicidade.
+Utilizei a biblioteca requests para fazer solicitações HTTP pela simplicidade.
 Utilizei f-strings para formatação de strings, tornando o código mais legível.
 Adotei a abordagem funcional sempre que possível, usando list comprehensions.
 Optei por criar funções pequenas e modulares para facilitar a manutenção e a compreensão do código. 
