@@ -1,5 +1,5 @@
 # Taxas de Câmbio
-Este projeto consiste em um conversor de moedas que utiliza a API Fixer.io para obter as taxas de câmbio mais recentes.
+Este projeto consiste em um fornecedor de taxas de câmbio, que utiliza a API Fixer.io para obter as taxas de câmbio mais recentes.
 ## Funcionalidades
 **Obtenção de Taxas de Câmbio:**  Utiliza a API Fixer.io para obter as taxas de câmbio mais recentes.
 
