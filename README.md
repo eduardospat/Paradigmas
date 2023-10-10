@@ -39,7 +39,7 @@ Demorei um bom tempo até encontrar o Fixer.io, até então nenhum outro site ti
 Levei também um certo tempo até entender um pouco a biblioteca "requests", até então não estava conseguindo fazer a chamada da API, mais um certo tempo até suceder em obter os dados para o câmbio.
 
 ## Screencast
-[]()
+[VÍDEO](https://drive.google.com/file/d/1lNAtoEXTleCR_Jj1MAMJkLeK4ut-QEVH/view?usp=sharing)
 
 ## Referências
 [Documentação da API Fixer.io](https://fixer.io/documentation)  
