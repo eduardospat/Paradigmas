@@ -12,15 +12,14 @@ def obter_taxas_de_cambio(chave_api, moeda_base='EUR'):
     data = response.json()
     
     if not data.get('success', False):
-        # Se 'success' é False, há um erro na resposta
         error_info = data.get('error', {})
         error_code = error_info.get('code', 'N/A')
-        error_message = error_info.get('info', 'N/A')
 
         if error_code == 104:
-            print(f"Limite mensal de requisições excedido: {error_message}")
+            print("Limite mensal de requisições excedido")
         else:
-            print(f"Erro na solicitação (Código: {error_code}): {error_message}")
+            print("Erro na solicitação")
+
 
         return None
 
