@@ -15,11 +15,11 @@ Este projeto consiste em um conversor de moedas que utiliza a API Fixer.io para 
 Execute o programa navegando para o diretório de seu arquivo, ou informando o caminho juntamente do comando "python":
 ```bash
 cd caminho/do/diretorio/do/arquivo
-python conversor_moedas.py
+python taxas_de_cambio.py
 ```
 ou
 ```bash
-python caminho/do/diretorio/do/arquivo/conversor_moedas.py
+python caminho/do/diretorio/do/arquivo/taxas_de_cambio.py
 ```
 Observação: Incluir chaves de API diretamente no código não é uma prática segura para ambientes de produção ou ao compartilhar código publicamente. Esta abordagem é usada apenas para fins de aprendizado ou execução pessoal.
 
