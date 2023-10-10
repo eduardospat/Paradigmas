@@ -38,6 +38,8 @@ Encontrei um problema ao tentar acessar as taxas de câmbio da resposta da API. 
 Demorei um bom tempo até encontrar o Fixer.io, até então nenhum outro site tinha uma documentação clara e objetiva, além de fornecer uma chave de API gratuita.  
 Levei também um certo tempo até entender um pouco a biblioteca "requests", até então não estava conseguindo fazer a chamada da API, mais um certo tempo até suceder em obter os dados para o câmbio.
 
+## Screencast
+[]()
 
 ## Referências
 [Documentação da API Fixer.io](https://fixer.io/documentation)  
