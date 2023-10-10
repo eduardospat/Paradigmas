@@ -32,7 +32,7 @@ def obter_taxas_de_cambio(chave_api, moeda_base='EUR'):
     """
 
 def criar_linha_taxa(moeda, taxa):
-    return f"{moeda}: {taxa}"
+    return f"{moeda}:{taxa}"
     """
     Cria uma linha formatada para exibir uma taxa de câmbio de forma iterativa.
     Args:
@@ -86,10 +86,3 @@ if __name__ == "__main__":    ## se o arquivo for executado diretamente, o nome 
     chave_api = '93924142ec51183fed773d2762485ee3'
     moeda_base = 'EUR'
     fornecer_dados(chave_api, moeda_base)
-
-    """
-    Função principal para fornecer dados de câmbio, formatar e escrever em um arquivo.
-    Args:
-        chave_api (str): Chave de API para autenticação.
-        moeda_base (str): Moeda base para a qual as taxas de câmbio são solicitadas.
-    """
